@@ -1,5 +1,4 @@
 import React from 'react';
-import './CustomForm.css';
 
 export default class CustomForm extends React.Component {
     constructor(props) {

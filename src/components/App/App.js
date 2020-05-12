@@ -1,11 +1,8 @@
 import React from 'react';
-import CustomForm from '../CustomForm/CustomForm.js';
-import './App.css';
+import FilterableProductTable from "../../views/product-list/FilterableProductTable";
 
-export default class App extends React.Component {
-    render() {
-        return (
-            <CustomForm/>
-        );
-    }
+export default function App() {
+    return (
+        <FilterableProductTable/>
+    );
 }
